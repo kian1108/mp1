@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #B9103C;
+  --bs-body-bg: #FBF0F6;
+  --bs-body-font-family: 'Montserrat', sans-serif;
+  
+}
+
+.span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.navbar-brand{
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 50px;
+}
+.navbar-toggler-icon {
+  color: var(--primary-color);
+}
+
+.btn-outline {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.nav-container {
+  margin-right: 0;
+}
+
+.display-1 {
+  font-weight: bold;
+}
+
+.body-banner {
+  background-color: var(--primary-color);
+}

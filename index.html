@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  
+  <!--main css-->
+  <link rel="stylesheet" href="index.css">
+  <!--google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>Hagi</title>
+</head>
+<body>
+
+  <!--Responsive Navbar-->  
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <div class="container nav-container">  
+      <a href="#" class="navbar-brand">
+        H
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#foyou" class="nav-link">For You</a>
+          </li>
+          <li class="nav-item">
+            <a href="#discover" class="nav-link">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recommendations" class="nav-link">Recommendations</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My List
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Watched</a></li>
+              <li><a class="dropdown-item" href="#">My Recommendations</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Favorites</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#login" class="nav-link">Log in</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control ms-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar end-->
+  <section class="p-5 body-banner">
+    <div class="container banner-container">
+      <div class="d-flex align-items-center">
+        <h1 class="display-1">Search for a movie or series</h1>
+      </div>
+      <form class="d-flex " role="search">
+        <input class="form-control ms-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+  <!--body-->
+  <section class="bg-dark text-light p-5 ">
+    <div class="container ">
+      <div class="d-sm-flex text-center text-sm-start align-items-center">
+        <div>
+          <h1 class="display-5 mt-5"> <span class="span">Learn</span> more about movies</h1>
+          <p class="lead my-4">See how other people view the movie and decide if you want to try it for yourself. Know more about a movie. Easter eggs, references and hidden meaning behind a scene.</p>
+        </div>
+        <div>
+          <img class="img-fluid w-100 d-none d-sm-block" src="images/Learn.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="d-sm-flex text-center text-sm-end align-items-center">
+        <div>
+          <img class="img-fluid w-100 d-none d-sm-block" src="images/discuss.svg" alt="">
+        </div>
+        <div>
+          <h1 class="display-5 mt-5"> <span class="span">Share</span> your experiences</h1>
+          <p class="lead my-4">Express the feelings the you felt when you watched a movie/series. Know if someone felt the same way. Discuss and talk about things you noticed and expand your knowledged about it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="d-sm-flex text-center text-sm-start align-items-center">
+        <div>
+          <h1 class="display-5 mt-5"> <span class="span">Explore</span> what to watch next.</h1>
+          <p class="lead my-4">Uncover some hidden gems. Discover movies that are made just for you. </p>
+        </div>
+        <div>
+          <img class="img-fluid w-100 d-none d-sm-block" src="images/discover.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6"></div>
+        <button class="btn btn-danger">
+          Sign Up
+        </button>
+      </div>
+      <div class="col-3"></div>
+      
+    </div>
+  </section> 
+
+  
+
+
+
+
+  <!--Bootstrap JS popper-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
